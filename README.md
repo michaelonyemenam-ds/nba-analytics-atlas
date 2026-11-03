@@ -1,44 +1,27 @@
 # NBA Analytics Atlas
 
-An independent basketball analytics and data science project focused on evaluating NBA player performance using advanced statistics, play-by-play data, shot-level information, and custom analytical models.
+Independent NBA data science project exploring player profiles, shot quality, playmaking, defensive impact, and custom player classifications.
 
-## Project Objectives
+**[Launch the application](https://michaelonyemenam-ds.github.io/nba-analytics-atlas/)** | [Application source](./index.html)
 
-- Integrate NBA statistics from multiple data sources.
-- Develop custom player metrics and performance classifications.
-- Analyze shooting efficiency, playmaking, defensive impact, and player roles.
-- Explore player similarities using statistical profiles.
-- Build reproducible data processing and analytical workflows.
+## Overview
+Atlas integrates basketball statistics and experimental analytical models into an interactive player exploration interface. The project studies offensive creation, shooting, passing, rebounding, defensive indicators, and player roles.
 
-## Technologies
+## Run locally
+Open `index.html` in a modern browser. Alternatively run `python3 -m http.server 8000` from the repository root and visit http://localhost:8000/.
 
-- Python
-- pandas and NumPy
-- Data cleaning and validation
-- Statistical analysis
-- Data visualization
-- Data pipelines
+## Structure
+- `index.html`: GitHub Pages entry point
+- `apps/`: application copy
+- `docs/`: documentation
+- `data/`: data documentation
+- `notebooks/`: analysis notebooks, where available
 
-## Project Components
+## Limitations
+This is independent ongoing research. Custom metrics and player classifications are experimental, and coverage and validation differ by metric. Do not treat these outputs as official NBA measurements.
 
-### 1. Data Collection and Integration
-Collecting and combining NBA player statistics, play-by-play events, and advanced performance metrics.
-
-### 2. Player Analytics
-Analyzing offensive creation, shooting, playmaking, rebounding, and defensive performance.
-
-### 3. NBA Badge Atlas
-Developing custom player classifications based on statistical indicators and playing styles.
-
-### 4. Shot Quality Analysis
-Exploring expected field goal percentage, shot difficulty, and contextual shooting performance.
-
-## Project Status
-
-Ongoing independent research and development. Selected models and metrics are experimental and subject to further validation.
+## Related work
+[Matchup Lab](https://github.com/michaelonyemenam-ds/nba-matchup-lab) · [Surprise Lab](https://github.com/michaelonyemenam-ds/nba-surprise-lab)
 
 ## Author
-
-Michael Onyemenam  
-Data Science Undergraduate — University of Maryland Global Campus  
-Expected Graduation: August 2027
+Michael Onyemenam — Data Science undergraduate, University of Maryland Global Campus.
